@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="搜索附近脑电头戴设备"
+            android:textSize="18dp"
+            android:id="@+id/textView"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/flash_iview"
+            android:src="@drawable/flash"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+             />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#3e3e3e3e"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></LinearLayout>
+
+    <ListView
+        android:id="@+id/list_select"
+        android:layout_marginTop="5dp"
+        android:listSelector="#00000000"
+        android:cacheColorHint="#00000000"
+        android:layout_width="fill_parent"
+        android:layout_height="253dp" >
+    </ListView>
+
+</LinearLayout>
