@@ -15,14 +15,8 @@ import java.util.Locale;
  * boolean compareNowTime(String time)                                      //与当前时间比较早晚
  */
 public class TimeUtil {
-
     private SimpleDateFormat sf = null;
 
-    /**
-     * 获取当前时间
-     *
-     * @return
-     */
     public String getNowTime() {
         String timeString = null;
         Time time = new Time();

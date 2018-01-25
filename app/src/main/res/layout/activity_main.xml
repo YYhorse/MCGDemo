@@ -144,7 +144,7 @@
                         app:is_need_unit="true"
                         app:string_unit="百分比%"
                         app:is_need_title="true"
-                        app:string_title="专注度"
+                        app:string_title="速度"
                         app:back_color="@android:color/darker_gray"
                         />
                 </LinearLayout>
